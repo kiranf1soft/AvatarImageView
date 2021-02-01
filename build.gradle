@@ -2,7 +2,7 @@
 
 buildscript {
     ext.support_version = '27.1.1'
-    ext.glide_version = '4.7.1'
+    ext.glide_version = '4.12.0'
     repositories {
         jcenter()
         mavenCentral()
