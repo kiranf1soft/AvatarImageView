@@ -1,0 +1,17 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: com.android.tools.build:gradle
+    versions:
+    - 4.1.2
+  - dependency-name: com.github.bumptech.glide:compiler
+    versions:
+    - 4.11.0
+  - dependency-name: com.github.bumptech.glide:glide
+    versions:
+    - 4.11.0
